@@ -1,1 +1,15 @@
-
+name: CI
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Controllo sintassi
+        run: |
+          for f in web/app.js web/skills.js web/sw.js server/server.mjs netlify/functions/chat.mjs; do node --check "$f"; done
+      - name: Build Docker
+        run: docker build -t aida .
