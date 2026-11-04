@@ -4,6 +4,12 @@
   "private": true,
   "type": "module",
   "description": "AIDA — assistente personale (web, Android, PC, Docker)",
-  "engines": { "node": ">=18" },
-  "scripts": { "start": "node server/server.mjs" }
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/server.mjs"
+  },
+  "license": "MIT",
+  "author": "Vittorio Pace"
 }

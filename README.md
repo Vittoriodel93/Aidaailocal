@@ -50,6 +50,9 @@ Non è incluso: si scarica dal suo repository, vedi `pc-agent/README.md`. Con Ta
 ## Scorciatoie
 Tocca la A per parlare · «Ehi Aida» (Impostazioni) · **Ctrl+Spazio** sul PC.
 
+## Licenza
+MIT © 2026 **Vittorio Pace** — vedi `LICENSE`. Puoi usare, modificare e ridistribuire AIDA mantenendo l'avviso di copyright. Mark LVI, scaricato a parte, ha la sua licenza (CC BY-NC 4.0).
+
 ## Crediti
 - Le abilità e il pannello PC sono ispirati a **Mark LVI** di FatihMakes (codice di AIDA scritto da zero, quello di Mark non è incluso).
 - Meteo: [Open-Meteo](https://open-meteo.com). Rete privata: [Tailscale](https://tailscale.com).

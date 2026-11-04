@@ -50,3 +50,5 @@
 - Rimosso Mark LVI dal repository (licenza non commerciale): si scarica a parte.
 - Rimossi i nomi dei progetti personali dai dati predefiniti.
 - Aggiunti SECURITY.md, CONTRIBUTING.md e CI (controllo sintassi e build Docker).
+
+- Licenza MIT, © 2026 Vittorio Pace.
