@@ -1,0 +1,15 @@
+# AIDA in Docker (rete locale). Avvio:  cp .env.example .env  →  docker compose up -d --build
+# Poi apri http://IP-DEL-PC:8080  (per microfono e installazione serve HTTPS: vedi docker-compose.tailscale.yml)
+services:
+  aida:
+    build: .
+    container_name: aida
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    volumes:
+      - aida-data:/data
+volumes:
+  aida-data:

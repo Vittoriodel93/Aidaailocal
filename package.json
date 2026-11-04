@@ -1,0 +1,9 @@
+{
+  "name": "aida",
+  "version": "0.8.0",
+  "private": true,
+  "type": "module",
+  "description": "AIDA — assistente personale (web, Android, PC, Docker)",
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node server/server.mjs" }
+}
